@@ -316,7 +316,7 @@ curl -X POST https://truncus.co/api/v1/emails/send \
   -H "Content-Type: application/json" \
   -d '{
     "to": "test@example.com",
-    "from": "noreply@mail.vanmoose.net",
+    "from": "noreply@mail.truncus.co",
     "subject": "Sandbox test",
     "html": "<p>This will not actually be delivered.</p>"
   }'

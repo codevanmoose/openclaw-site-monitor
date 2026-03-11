@@ -120,7 +120,7 @@ Change `"5m"` to `"1m"`, `"10m"`, `"30m"`, etc.
 
 ### From Address
 
-The agent sends from `noreply@mail.vanmoose.net` by default. To use your own verified domain, update the from address in `AGENTS.md` under the Alerting section.
+The agent sends from `noreply@mail.truncus.co` by default. To use your own verified domain, update the from address in `AGENTS.md` under the Alerting section.
 
 ## What You Get
 

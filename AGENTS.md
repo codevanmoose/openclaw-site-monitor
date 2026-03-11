@@ -47,7 +47,7 @@ Example MEMORY.md entry:
 
 When a site's state changes, send an email alert using the `truncus-email` skill.
 
-Use `noreply@mail.vanmoose.net` as the from address (or any verified domain the user configures).
+Use `noreply@mail.truncus.co` as the from address (or any verified domain the user configures).
 
 ### Site goes DOWN (up -> down or slow -> down)
 
