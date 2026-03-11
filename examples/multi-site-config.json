@@ -1,0 +1,34 @@
+{
+  "sites": [
+    {
+      "url": "https://myapp.com",
+      "name": "My App",
+      "alert_email": "ops@myapp.com"
+    },
+    {
+      "url": "https://api.myapp.com/health",
+      "name": "My App API",
+      "alert_email": "ops@myapp.com",
+      "expected_status": 200,
+      "timeout_seconds": 5
+    },
+    {
+      "url": "https://staging.myapp.com",
+      "name": "Staging",
+      "alert_email": "dev@myapp.com",
+      "check_interval_minutes": 15
+    },
+    {
+      "url": "https://oldsite.com",
+      "name": "Old Site (redirect)",
+      "alert_email": "ops@myapp.com",
+      "expected_status": 301
+    }
+  ],
+  "defaults": {
+    "check_interval_minutes": 5,
+    "timeout_seconds": 10,
+    "expected_status": 200,
+    "slow_threshold_ms": 5000
+  }
+}

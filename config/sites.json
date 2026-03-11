@@ -1,0 +1,15 @@
+{
+  "sites": [
+    {
+      "url": "https://example.com",
+      "name": "Example Site",
+      "alert_email": "you@example.com"
+    }
+  ],
+  "defaults": {
+    "check_interval_minutes": 5,
+    "timeout_seconds": 10,
+    "expected_status": 200,
+    "slow_threshold_ms": 5000
+  }
+}

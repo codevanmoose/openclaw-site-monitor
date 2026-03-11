@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.openclaw.ai/schema/openclaw.json",
+  "agents": {
+    "defaults": {
+      "heartbeat": {
+        "every": "5m"
+      }
+    }
+  }
+}
